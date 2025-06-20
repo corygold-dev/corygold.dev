@@ -32,7 +32,7 @@ const Nav = () => {
         </li>
         <li onClick={handleBurger}>
           <a
-            href="https://github.com/corumgold"
+            href="https://github.com/corygold-dev"
             target="_blank"
             rel="noreferrer"
           >
@@ -58,7 +58,7 @@ const Nav = () => {
           </a>
         </li>
         <li onClick={handleBurger}>
-          <a href="mailto:goldcorum@gmail.com">/email</a>
+          <a href="mailto:corygold.dev@gmail.com">/email</a>
         </li>
       </ul>
       <div
