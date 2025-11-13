@@ -49,11 +49,7 @@ const Nav = () => {
           </a>
         </li>
         <li onClick={handleBurger}>
-          <a
-            href="/Cory Gold Resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="/Cory Gold Resume.pdf" target="_blank" rel="noreferrer">
             /resume
           </a>
         </li>

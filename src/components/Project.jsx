@@ -30,7 +30,11 @@ const Project = ({ project }) => {
           <p>{project.description}</p>
           <div className="project-tools">
             {project.tools.map((tool, index) => {
-              return <p key={index} className="tool">{tool}</p>;
+              return (
+                <p key={index} className="tool">
+                  {tool}
+                </p>
+              );
             })}
           </div>
           <div className="project-buttons">

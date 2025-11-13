@@ -6,10 +6,7 @@ const AboutMe = () => {
     <div id="about" className="about-me">
       <h4>/about_me</h4>
       <div className="profile-picture">
-        <img
-          src="/images/profile-photo.png"
-          alt="profile"
-        />
+        <img src="/images/profile-photo.png" alt="profile" />
       </div>
       <div id="about-me-code">
         <header id="about-me-header">
@@ -35,19 +32,24 @@ const AboutMe = () => {
             {
               <>
                 <span id="bio">
-                  "Hi, I'm Cory! After a transformative career shift, I've found
-                  my passion in software engineering. Formerly dedicated to
-                  improving lives through exercise and nutrition, I've since
-                  redirected my energy towards crafting seamless digital
-                  experiences and solving complex problems."
+                  "Cory Gold is a software engineer at SAIC, working on
+                  mission-critical web applications for USTRANSCOM using React,
+                  Next.js, and modern analytics tooling. Outside his full-time
+                  role, he builds and co-founds products like FocusFit (a focus
+                  timer with built-in micro-workouts) and RSVP Social (a
+                  nightlife/event discovery and ticketing platform), taking on
+                  full-stack architecture, dev tooling, and mobile development
+                  with React Native and Expo."
                 </span>
                 <span className="bio">
-                  "Three years ago, inspired by a friend's enthusiasm for
-                  software engineering, I embarked on a journey to re-skill
-                  myself. Now, as a Frontend Engineer at Text2Order, I lead
-                  initiatives to optimize event ordering processes and enhance
-                  user experiences through technologies like JavaScript, React,
-                  and GraphQL."
+                  "He’s detail-oriented, entrepreneurial, and deeply focused on
+                  building clean, high-quality systems. Cory’s background spans
+                  EMS, firefighting, personal training, and sales — which shows
+                  up in his practical approach to product design and
+                  problem-solving. He lives in Chattanooga with his wife,
+                  daughter, and a very active household of dogs and a cat. When
+                  he’s not coding, he’s staying active, writing music, or
+                  working toward a simpler, more intentional life."
                 </span>
               </>
             }
@@ -89,8 +91,8 @@ const AboutMe = () => {
           </p>
           <p className="about-me-array">frontEnd: Array(5)</p>
           <ul>
-            <li className="array-item">1: {<span>"React.js"</span>}</li>
-            <li className="array-item">2: {<span>"Redux"</span>}</li>
+            <li className="array-item">1: {<span>"React"</span>}</li>
+            <li className="array-item">2: {<span>"React Native"</span>}</li>
             <li className="array-item">0: {<span>"TypeScript"</span>}</li>
             <li className="array-item">0: {<span>"JavaScript"</span>}</li>
           </ul>
@@ -98,7 +100,7 @@ const AboutMe = () => {
           <ul>
             <li className="array-item">0: {<span>"Node.js"</span>}</li>
             <li className="array-item">1: {<span>"Express.js"</span>}</li>
-            <li className="array-item">2: {<span>"Sequelize.js"</span>}</li>
+            <li className="array-item">2: {<span>"GraphQL"</span>}</li>
             <li className="array-item">2: {<span>"PostgreSQL"</span>}</li>
             <li className="array-item">2: {<span>"GraphQL"</span>}</li>
           </ul>
