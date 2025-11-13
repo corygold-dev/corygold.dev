@@ -1,5 +1,5 @@
-import React from "react";
-import { Typewriter } from "react-simple-typewriter";
+import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 
 const AboutMe = () => {
   return (
@@ -7,7 +7,7 @@ const AboutMe = () => {
       <h4>/about_me</h4>
       <div className="profile-picture">
         <img
-          src={process.env.PUBLIC_URL + "/images/profile-photo.png"}
+          src={process.env.PUBLIC_URL + '/images/profile-photo.png'}
           alt="profile"
         />
       </div>
@@ -19,17 +19,17 @@ const AboutMe = () => {
         </header>
         <div className="about-me-entry">
           <p className="about-me-query">
-            {"> console.log("}
+            {'> console.log('}
             {<span id="console-log">Cory.homeBase</span>}
-            {")"}
+            {')'}
           </p>
           <p className="about-me-response">{<span>"Chattanooga, TN"</span>}</p>
         </div>
         <div className="about-me-entry">
           <p className="about-me-query">
-            {"> console.log("}
+            {'> console.log('}
             {<span id="console-log">Cory.bio</span>}
-            {")"}
+            {')'}
           </p>
           <p className="about-me-response">
             {
@@ -55,24 +55,24 @@ const AboutMe = () => {
         </div>
         <div className="about-me-entry">
           <p className="about-me-query">
-            {"> console.log("}
+            {'> console.log('}
             {<span id="console-log">Cory.interests</span>}
-            {")"}
+            {')'}
           </p>
           <p className="about-me-response">
-            [{<span>"minimalist design"</span>}, {<span>"writing music"</span>},{" "}
+            [{<span>"minimalist design"</span>}, {<span>"writing music"</span>},{' '}
             {<span>"cooking"</span>}, {<span>"horror novels"</span>},
             {<span>"organic gardening"</span>}]
           </p>
         </div>
         <div className="about-me-entry">
           <p className="about-me-query">
-            {"> console.log("}
+            {'> console.log('}
             {<span id="console-log">Cory.education</span>}
-            {")"}
+            {')'}
           </p>
           <p className="about-me-response">
-            [{<span>"B.A. Liberal Studies - Pennwest California"</span>},{" "}
+            [{<span>"B.A. Liberal Studies - Pennwest California"</span>},{' '}
             {
               <span>
                 "Software Engineering Certificate - Fullstack Academy"
@@ -83,9 +83,9 @@ const AboutMe = () => {
         </div>
         <div className="about-me-entry">
           <p className="about-me-query">
-            {"> console.dir("}
+            {'> console.dir('}
             {<span id="console-log">Cory.skills</span>}
-            {")"}
+            {')'}
           </p>
           <p className="about-me-array">frontEnd: Array(5)</p>
           <ul>
@@ -107,23 +107,25 @@ const AboutMe = () => {
             <li className="array-item">1: {<span>"Git"</span>}</li>
             <li className="array-item">2: {<span>"NPM"</span>}</li>
             <li className="array-item">2: {<span>"Agile Workflow"</span>}</li>
-            <li className="array-item">2: {<span>"RESTful API Design"</span>}</li>
+            <li className="array-item">
+              2: {<span>"RESTful API Design"</span>}
+            </li>
           </ul>
         </div>
         <div className="about-me-entry">
           <p className="about-me-query">
-            {"> console.log("}
+            {'> console.log('}
             {<span id="console-log">Cory.nextAdventure</span>}
-            {")"}
+            {')'}
           </p>
           <p className="about-me-response">{<span>undefined</span>}</p>
         </div>
         <div className="about-me-entry">
           <p className="about-me-query">
-            {"> "}
+            {'> '}
             <Typewriter
               className="about-me-response"
-              words={[""]}
+              words={['']}
               cursor
               cursorStyle="_"
             />

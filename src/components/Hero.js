@@ -1,8 +1,8 @@
-import React from "react";
-import Projects from "./Projects";
-import AboutMe from "./AboutMe";
-import Footer from "./Footer";
-import { Typewriter } from "react-simple-typewriter";
+import React from 'react';
+import Projects from './Projects';
+import AboutMe from './AboutMe';
+import Footer from './Footer';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
   return (
@@ -11,9 +11,9 @@ const Hero = () => {
         className="hero"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "/images/paper.jpg"
+            process.env.PUBLIC_URL + '/images/paper.jpg'
           })`,
-          backgroundSize: "cover",
+          backgroundSize: 'cover',
         }}
       >
         <div className="intro">
@@ -22,14 +22,14 @@ const Hero = () => {
             <Typewriter
               className="big-header"
               words={[
-                "Cory Gold",
-                "an Engineer",
-                "Cory Gold",
-                "a Minimalist",
-                "Cory Gold",
-                "an Artist",
-                "Cory Gold",
-                "a Designer",
+                'Cory Gold',
+                'an Engineer',
+                'Cory Gold',
+                'a Minimalist',
+                'Cory Gold',
+                'an Artist',
+                'Cory Gold',
+                'a Designer',
               ]}
               loop={false}
               cursor
@@ -41,8 +41,8 @@ const Hero = () => {
           </h2>
           <h3 className="big-header">I build software.</h3>
           <p>
-            I'm a <span>full-stack</span> engineer who enjoys making{" "}
-            <span>intuitive applications</span> and working alongside{" "}
+            I'm a <span>full-stack</span> engineer who enjoys making{' '}
+            <span>intuitive applications</span> and working alongside{' '}
             <span>talented people</span> on the web.
           </p>
         </div>

@@ -1,17 +1,17 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 
 const Nav = () => {
   const [burgerClicked, setBurgerClicked] = useState(false);
 
   const handleBurger = () => {
-    const navLinks = document.querySelectorAll(".nav-links li");
+    const navLinks = document.querySelectorAll('.nav-links li');
 
     setBurgerClicked(!burgerClicked);
 
     navLinks.forEach((link, index) => {
       if (link.style.animation) {
-        link.style.animation = "";
+        link.style.animation = '';
       } else {
         link.style.animation = `navLinkFade 0.5s ease forwards ${
           index / 7 + 0.8
@@ -23,7 +23,7 @@ const Nav = () => {
   return (
     <nav className="navbar">
       <div className="brand-title">corygold.dev</div>
-      <ul className={burgerClicked ? "nav-links nav-active" : "nav-links"}>
+      <ul className={burgerClicked ? 'nav-links nav-active' : 'nav-links'}>
         <li onClick={handleBurger}>
           <a href="#about">/about</a>
         </li>
@@ -50,7 +50,7 @@ const Nav = () => {
         </li>
         <li onClick={handleBurger}>
           <a
-            href={process.env.PUBLIC_URL + "/Cory Gold Resume.pdf"}
+            href={process.env.PUBLIC_URL + '/Cory Gold Resume.pdf'}
             target="_blank"
             rel="noreferrer"
           >
@@ -63,7 +63,7 @@ const Nav = () => {
       </ul>
       <div
         onClick={handleBurger}
-        className={burgerClicked ? "burger toggle" : "burger"}
+        className={burgerClicked ? 'burger toggle' : 'burger'}
       >
         <div className="line1"></div>
         <div className="line2"></div>

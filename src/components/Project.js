@@ -1,5 +1,5 @@
-import React from "react";
-import { useInView } from "react-intersection-observer";
+import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const Project = ({ project }) => {
   const { ref: imageRef, inView: imageVisible } = useInView({
@@ -12,9 +12,9 @@ const Project = ({ project }) => {
         className={
           imageVisible
             ? project.id % 2 === 0
-              ? "animate-image-right project-image"
-              : "animate-image-left project-image"
-            : "project-image"
+              ? 'animate-image-left project-image'
+              : 'animate-image-right project-image'
+            : 'project-image'
         }
       >
         <img
@@ -37,10 +37,10 @@ const Project = ({ project }) => {
             {project.liveLink ? (
               <a href={project.liveLink} rel="noreferrer" target="_blank">
                 <button>
-                  Open App{" "}
+                  Open App{' '}
                   <img
                     className="button-icon"
-                    src={process.env.PUBLIC_URL + "/images/external-link.png"}
+                    src={process.env.PUBLIC_URL + '/images/external-link.png'}
                     alt="live link"
                   />
                 </button>
@@ -48,10 +48,10 @@ const Project = ({ project }) => {
             ) : null}
             <a href={project.projectLink} rel="noreferrer" target="_blank">
               <button>
-                Source Code{" "}
+                Source Code{' '}
                 <img
                   className="button-icon"
-                  src={process.env.PUBLIC_URL + "/images/github.png"}
+                  src={process.env.PUBLIC_URL + '/images/github.png'}
                   alt="github"
                 />
               </button>
