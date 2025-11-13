@@ -29,8 +29,8 @@ const Project = ({ project }) => {
           <h3>{project.title}</h3>
           <p>{project.description}</p>
           <div className="project-tools">
-            {project.tools.map((tool) => {
-              return <p className="tool">{tool}</p>;
+            {project.tools.map((tool, index) => {
+              return <p key={index} className="tool">{tool}</p>;
             })}
           </div>
           <div className="project-buttons">
@@ -40,7 +40,7 @@ const Project = ({ project }) => {
                   Open App{' '}
                   <img
                     className="button-icon"
-                    src={process.env.PUBLIC_URL + '/images/external-link.png'}
+                    src="/images/external-link.png"
                     alt="live link"
                   />
                 </button>
@@ -51,7 +51,7 @@ const Project = ({ project }) => {
                 Source Code{' '}
                 <img
                   className="button-icon"
-                  src={process.env.PUBLIC_URL + '/images/github.png'}
+                  src="/images/github.png"
                   alt="github"
                 />
               </button>

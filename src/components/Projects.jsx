@@ -8,7 +8,7 @@ const Projects = () => {
       id="projects"
       className="home-projects home-container"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/images/paper.jpg'})`,
+        backgroundImage: `url('/images/paper.jpg')`,
         backgroundSize: 'cover',
       }}
     >

@@ -50,7 +50,7 @@ const Nav = () => {
         </li>
         <li onClick={handleBurger}>
           <a
-            href={process.env.PUBLIC_URL + '/Cory Gold Resume.pdf'}
+            href="/Cory Gold Resume.pdf"
             target="_blank"
             rel="noreferrer"
           >

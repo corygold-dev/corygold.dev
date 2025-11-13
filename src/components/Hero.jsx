@@ -10,9 +10,7 @@ const Hero = () => {
       <div
         className="hero"
         style={{
-          backgroundImage: `url(${
-            process.env.PUBLIC_URL + '/images/paper.jpg'
-          })`,
+          backgroundImage: `url('/images/paper.jpg')`,
           backgroundSize: 'cover',
         }}
       >

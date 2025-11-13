@@ -10,15 +10,12 @@
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.4.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "react-simple-typewriter": "^4.0.2",
-    "web-vitals": "^2.1.4"
+    "react-simple-typewriter": "^4.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,md}\""
   },
@@ -41,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^3.6.2"
+    "@vitejs/plugin-react": "^5.1.1",
+    "prettier": "^3.6.2",
+    "vite": "^7.2.2"
   }
 }
